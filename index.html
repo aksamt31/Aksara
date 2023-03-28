@@ -4,14 +4,6 @@
         <meta name="author" content="Shien">
         <title>Hello, World.</title> 
 
-<script type="text/javascript">
-function text_button()
-{ 
-var halo=document.getElementById("div_text_button");
-halo.innerHTML+="<p>Put your own Press Me text here.</p>"
-}
-</script>
-
 <style> 
 html {
     font-family: 'Century Gothic';
@@ -27,21 +19,24 @@ body {
     <P>This is my <a href='https://github.com/aksamt31'>Github</a> profile.</P>
     <p>This message is using <a href="javascript:alert('I learned all of this in barely 12 hours (including break time and sleep)')">javascript:alert.</a></p>
 
+<h2> Attachments </h2>
+<img src="taeyong.jpg" alt="Taeyong Image">
+<p>Korean singer. Lee Taeyong. Part of NCT 127. All about <a href='https://en.wikipedia.org/wiki/Lee_Tae-yong'>Lee Taeyong</a> in one click.</p>
+<p style="color:pink;">His favorite color is pink.</p>
+
+<h3 style="border:2px solid DodgerBlue;">Colorful sentences.</h1>
+<p style="background-color: gray;">You can costumize like this.</p>
+<p> You can quote William Shakespeare; <address>A fool thinks himself to be wise, but a wise man knows himself to be a fool.</address></p>
+<p>To make it even better, you can<cite>change the title's font to be like this.</cite></p>
+
 <script>
-window.onload = function ()
-{
-var jumlah; 
-jumlah = 10 * 5;
-document. getElementById("hasil jumlah").innerHTML = jumlah;
+function text_button() {
+let x = document.getElementById("button");
+x.style.fontSize = "30px";
+x.style.color = "darkblue";
 }
 </script>
-
-<h2>document.getElementById</h2>
-<p> This is my favorite code of HTML this far. Look.</p>
-<p>10 x 5? </p>
-<div id="hasil jumlah">
-</div>
-<button style="background-color: darkcyan" onclick='text_button()'>Press Me</button>
+<button onclick="text_button()">Press Me</button>
     </body>
     </html>
 
