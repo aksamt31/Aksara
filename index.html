@@ -3,21 +3,45 @@
     <head>
         <meta name="author" content="Shien">
         <title>Hello, World.</title> 
-        <script> alert("Welcome!"); </script>
+
+<script type="text/javascript">
+function text_button()
+{ 
+var halo=document.getElementById("div_text_button");
+halo.innerHTML+="<p>Put your own Press Me text here.</p>"
+}
+</script>
+
 <style> 
 html {
-    font-family: 'Trebuchet MS';
+    font-family: 'Century Gothic';
 }
 body {
-    background-color: darkcyan;
-    color: darkblue;
+    background-color: black;
+    color: whitesmoke;
 }
     </style>
     </head>
     <body>
-    <h1>Pake nanya</h1>
-    <P>Ketik 1 kalau <a href='https://github.com/aksamt31'>keren.</a></P>
-    <p>Ketik 2 kalau <a href="javascript:alert('kebetulan aku bisa javascript umur 14 tahun bu iya hehe')">iri.</a></p>
+    <h1>This is the heading of the HTML.</h1>
+    <P>This is my <a href='https://github.com/aksamt31'>Github</a> profile.</P>
+    <p>This message is using <a href="javascript:alert('I learned all of this in barely 12 hours (including break time and sleep)')">javascript:alert.</a></p>
+
+<script>
+window.onload = function ()
+{
+var jumlah; 
+jumlah = 10 * 5;
+document. getElementById("hasil jumlah").innerHTML = jumlah;
+}
+</script>
+
+<h2>document.getElementById</h2>
+<p> This is my favorite code of HTML this far. Look.</p>
+<p>10 x 5? </p>
+<div id="hasil jumlah">
+</div>
+<button style="background-color: darkcyan" onclick='text_button()'>Press Me</button>
     </body>
     </html>
 
